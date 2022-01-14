@@ -74,6 +74,7 @@ header {
   height: 480px;
   box-shadow: 0 0 20px gray;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .collection-details h2 {
@@ -115,6 +116,7 @@ header {
 }
 .signup-image {
   box-shadow: 0 0 30px #bd728db7;
+  border-radius: 5px;
 }
 .pink {
   color: #e02c6d;
