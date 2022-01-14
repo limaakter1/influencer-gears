@@ -10,7 +10,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* ----------header part -------*/
-
+header {
+  margin-top: 35px;
+}
 .header-part {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
