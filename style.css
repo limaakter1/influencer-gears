@@ -102,6 +102,38 @@ body {
   text-decoration: none;
   color: #e02c6d;
 }
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: rgb(230, 224, 224);
+  padding: 30px 0;
+  column-gap: 10%;
+}
+.signup-image {
+  box-shadow: 0 0 30px #bd728db7;
+}
+.pink {
+  color: #e02c6d;
+  font-size: 17px;
+  font-weight: 600;
+}
+.signup h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.email {
+  font-size: 20px;
+  padding: 8px 12px;
+  margin-top: 15px;
+  outline: none;
+}
+.fa-paper-plane {
+  padding: 12px;
+  color: white;
+  background-color: #e02c6d;
+}
 footer {
   background-color: #0a0826;
   color: white;
