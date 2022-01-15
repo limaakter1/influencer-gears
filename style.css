@@ -220,6 +220,7 @@ footer .fab {
   .header-part {
     display: block;
   }
+
   .collections {
     grid-template-columns: 1fr;
   }
