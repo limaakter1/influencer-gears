@@ -1,23 +1,40 @@
-/*---------- google font------ */
+/*-------------------------
+       google font
+-------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;500;600&family=Roboto+Slab&family=Source+Serif+Pro&family=Ubuntu&display=swap");
+/*------------------------
+       animation 
+-------------------------*/
 @-webkit-keyframes colorchange {
   0% {
     color: black;
   }
+  10% {
+    color: #530824;
+  }
   20% {
     color: #880d3a;
   }
-  35% {
+  30% {
     color: #b10b48;
   }
-  50% {
+  40% {
     color: #e02c6d;
   }
-  65% {
+  50% {
+    color: #f84687;
+  }
+  60% {
+    color: #e02c6d;
+  }
+  70% {
     color: #b10b48;
   }
   80% {
     color: #880d3a;
+  }
+  90% {
+    color: #530824;
   }
   100% {
     color: black;
@@ -28,8 +45,10 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-/* animation-play-state: running;  
-/*------------ common---------- */
+
+/*---------------------
+     common part
+---------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +57,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* ----------header part -------*/
+/* ---------------------
+       header part 
+  ----------------------*/
 header {
   margin-top: 35px;
 }
@@ -84,6 +105,9 @@ header {
   transition: transform 3s ease-in-out;
 }
 
+/*----------------------
+     collection part 
+--------------------------*/
 .collection-title {
   margin-top: 70px;
   margin-bottom: 30px;
@@ -134,6 +158,9 @@ header {
   text-decoration: none;
   color: #e02c6d;
 }
+/*-----------------------
+      sign up part
+------------------------- */
 .signup {
   display: flex;
   justify-content: center;
@@ -167,6 +194,10 @@ header {
   color: white;
   background-color: #e02c6d;
 }
+
+/*------------------------
+      footer part 
+--------------------------*/
 footer {
   background-color: #0a0826;
   color: white;
@@ -181,6 +212,10 @@ footer p {
 footer .fab {
   margin-right: 5px;
 }
+
+/*------------------------------
+     media query for mobile 
+--------------------------------*/
 @media only screen and (max-width: 688px) {
   .header-part {
     display: block;
@@ -195,6 +230,9 @@ footer .fab {
     width: 100%;
   }
 }
+/*------------------------
+   media query for tab 
+---------------------------*/
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .collections {
     grid-template-columns: repeat(2, 1fr);
