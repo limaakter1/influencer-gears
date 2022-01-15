@@ -218,7 +218,11 @@ footer .fab {
 --------------------------------*/
 @media only screen and (max-width: 688px) {
   .header-part {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .header-left {
+    order: 1;
   }
 
   .collections {
